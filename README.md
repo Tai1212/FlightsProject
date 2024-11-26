@@ -3,6 +3,7 @@
 ## Table of Contents
 * [General Info](#general-info)
 * [Features](#features)
+* [Technologies](#technologies)
 
 ## General Info
 This project investigates whether it is possible to predict cheap flights by analyzing flight data and identifying the various attributes that impact the cost of a flight. The goal is to leverage machine learning techniques to build accurate models that can forecast flight prices based on these attributes. This projects utilizes many techniques, such as:
@@ -19,3 +20,42 @@ This project combines data analysis, machine learning, andweb automation to deli
    * Ensured efficient and accurate scrapng of flight-related data, forming the basis for downstream analysis.
 2. Data Loading:
    * Loading raw flight data from an [Excel file flight_data.xlsx](docs/flight_data.xlsx) into a Pandas DataFrame for processing and analysis.
+3. Data Cleaning:
+   * Duplicate Rows: Identified and removed duplicate rows in the DataFrame.
+   * Outlier Detection: Used configurable ranges to filter out invalid or irrelevant data.
+4. Exploratory Data Analysis:
+   * Visualized data trends, feature distributions, and correlations using Matplotlib.
+   * Identified anomalies and patterns in flight prices and other features.
+5. Feature Engineering:
+   * Transformed numerical features (e.g., cheapest_price and flight_duration) into categorical ranges.
+   * Applied one-hot encoding to categorical variables for machine learning compatibility.
+6. Machine Learning Models:
+   * Trained, evaluated, and compared multiple models: Random Forest Regressor, Multinomial Naive Bayes, Neural Networks, Logistic Regression, K-Nearest Neighbors.
+   * Implemented feature scaling and data transformation as required for specific models.
+7. Metrics for Model Evaluation:
+   * Evaluated models using Mean Squared Error (MSE) and Accuracy.
+   * Analyzed feature importance to enhance model interpretability.
+  
+## Results
+Each model was built on three different versions of the data frame to compare their accuracies. 
+  1. The first data frame contains the flight prices and durations which are represented in numeric values, trying to solve a regression problem.
+  2. In the second dataframe, we converted the flight prices to 5 different categories. This was used to solve a clasification problem.
+  3.  In the third dataframe we categorized the flight durations in addition to the flight prices categorization, also used to solve a classification problem.
+Each model will calculate the MSE and the model's accuracy.
+* The Random Forest gives insight to feature importance. This model gave the highest accuracy of 74% on the first data frame. It showed that the Winter is the cheapest season to fly and adding carry on bags/ not adding carry on bags affects the price.
+|                          |                         |
+:-------------------------:|:-------------------------:
+![](docs/graph_carry_on_bag.png) | ![](docs/graph_seasons.png)
+* The Neural Network model gave the best accuracy for the second and third data frames (69% and 70%).
+
+## Technologies
+* Python
+* Automation Tool: Selenium
+* Libraries:
+  * Data Manipulation: Pandas, Numpy
+  * Data Visualization: Matplotlip
+  * Machine Learning: Scikit-learn
+* IDE: Jupyter Notebook
+
+
+ 
