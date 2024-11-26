@@ -45,9 +45,15 @@ Each model will calculate the MSE and the model's accuracy.
 
 ### Random Forest Model:
   * The Random Forest gives insight to feature importance. This model gave the highest accuracy of 74% on the first data frame. It showed that the Winter is the cheapest season to fly and adding carry on bags/ not adding carry on bags affects the price.
+    
   ![](docs/graph_carry_on_bag.png)
   ![](docs/graph_seasons.png)
+  ![](docs/random_forest_result.png)
+
+### Neural Network:
 * The Neural Network model gave the best accuracy for the second and third data frames (69% and 70%).
+  
+  ![](docs/neural_network_results.png)
 
 ## Technologies
 * Python
