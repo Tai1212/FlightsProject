@@ -2,6 +2,7 @@
 
 ## Table of Contents
 * [General Info](#general-info)
+* [Architecture](#architecture)
 * [Features](#features)
 * [Technologies](#technologies)
 
@@ -13,6 +14,8 @@ This project investigates whether it is possible to predict cheap flights by ana
 * Automation with Selenium: Automated a system that simulates a person selecting their desired flight to fetch data directly from expedia.com, streamlining the data collection process.
 
 This project combines data analysis, machine learning, andweb automation to deliver a robust solution for forecasting flight prices. It demonstrates a strong understanding of end-to-end AI model development, from data collection to prediction, making it applicable to real-world scenarios in travel and e-commerce. 
+
+## Architecture
 
 ## Features
 1. Crawling and Scraping:
