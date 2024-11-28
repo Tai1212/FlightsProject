@@ -42,14 +42,14 @@ This project combines data analysis, machine learning, andweb automation to deli
    * Analyzed feature importance to enhance model interpretability.
   
 ## Results
-Each model was built on three different versions of the data frame to compare their accuracies. 
+Each model was built on three different versions of the data frame to compare each model's accuracy. 
   1. The first data frame contains the flight prices and durations which are represented in numeric values, trying to solve a regression problem.
-  2. In the second dataframe, we converted the flight prices to 5 different categories. This was used to solve a clasification problem.
-  3.  In the third dataframe we categorized the flight durations in addition to the flight prices categorization, also used to solve a classification problem.
+  2. In the second dataframe, we converted the flight prices to five different categories. This was used to solve a clasification problem.
+  3. In the third dataframe we categorized the flight durations in addition to the flight prices categorization, also used to solve a classification problem.
 Each model will calculate the MSE and the model's accuracy.
 
 ### Random Forest Model:
-  * The Random Forest gives insight to feature importance. This model gave the highest accuracy of 74% on the first data frame. It showed that the Winter is the cheapest season to fly and adding carry on bags/ not adding carry on bags affects the price.
+  * The Random Forest gives insight to feature importance. This model gave the highest accuracy (74%) on the first data frame. It showed that the Winter is the cheapest season to fly and adding carry on bags/ not adding carry on bags affects the price.
     
   ![](docs/graph_carry_on_bag.png)
   ![](docs/graph_seasons.png)
