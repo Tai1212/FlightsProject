@@ -4,6 +4,7 @@
 * [General Info](#general-info)
 * [Architecture](#architecture)
 * [Features](#features)
+* [Results](#results)
 * [Technologies](#technologies)
 
 ## General Info
