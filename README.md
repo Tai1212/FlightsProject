@@ -61,7 +61,7 @@ Each model will calculate the MSE and the model's accuracy.
   ![](docs/random_forest_result.png)
 
 ### Neural Network:
-* The Neural Network model gave the best accuracy for the second and third data frames (69% and 70%).
+* The Neural Network model gave the best accuracy for the second and third data frames (69% and 71%).
   
   ![](docs/neural_network_results.png)
 
