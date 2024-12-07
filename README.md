@@ -8,7 +8,7 @@
 * [Technologies](#technologies)
 
 ## General Info
-This project investigates whether it is possible to predict cheap flights by analyzing flight data and identifying the various attributes that impact the cost of a flight. The goal is to leverage machine learning techniques to build accurate models that can forecast flight prices based on these attributes. This projects utilizes many techniques, such as:
+This project investigates whether it is possible to predict cheap flights by analyzing flight data and identifying the various attributes that impact the cost of a flight. The goal is to leverage machine learning techniques to build models that identify the most significant factors contributing to flight prices based on various attributes. This projects utilizes many techniques, such as:
 * Data Driven Insights: Analyzing flight data to extract meaningful trends and correlations.
 * Feature Engineering: Transforming raw flight information into features relevent to price prediction.
 * AI-Powered Predictions: Using advanced machine learning models to predict flight costs with accuracy.
