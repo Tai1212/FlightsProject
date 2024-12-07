@@ -22,7 +22,7 @@ This project combines data analysis, machine learning, and web automation to del
 ## Features
 1. Crawling and Scraping:
    * Automated a system using Selenium to simulate a user selecting flights and extracting real-time data directly from websites.
-   * Ensured efficient and accurate scrapng of flight-related data, forming the basis for downstream analysis.
+   * Ensured efficient and accurate scraping of flight-related data, forming the basis for downstream analysis.
 2. Data Loading:
    * Loading raw flight data from an [Excel file flight_data.xlsx](docs/flight_data.xlsx) into a Pandas DataFrame for processing and analysis.
 3. Data Cleaning:
