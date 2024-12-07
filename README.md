@@ -17,7 +17,7 @@ This project investigates whether it is possible to predict cheap flights by ana
 This project combines data analysis, machine learning, and web automation to deliver a robust solution for analyzing the factors that influence flight prices. It demonstrates a strong understanding of end-to-end AI model development, from data collection to prediction, making it applicable to real-world scenarios in travel and e-commerce. 
 
 ## Architecture
-![](docs/layered_data_flow.png)
+![](docs/layered_data_flow.drawio.png)
 
 ## Features
 1. Crawling and Scraping:
