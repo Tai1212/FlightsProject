@@ -50,9 +50,14 @@ Each model will calculate the MSE and the model's accuracy.
 
 ### Random Forest Model:
   * The Random Forest gives insight to feature importance. This model gave the highest accuracy (74%) on the first data frame. It showed that the Winter is the cheapest season to fly and adding carry on bags/ not adding carry on bags affects the price.
-    
+
+  * This graph demonstrates that flights with the "Carry-On Bag Included" option tend to have lower average prices compared to other options like "Seat Choice," "Flexible Change Policies," and "No Cancel Fee."
   ![](docs/graph_carry_on_bag.png)
+
+  * The graph shows that winter has the lowest average flight prices, with prices in spring and summer being higher on average, while autumn also shows a relatively lower range but higher than winter.
   ![](docs/graph_seasons.png)
+
+  * The random forest model indicates that the feature "Carry-On Bag Included" has the highest importance in predicting flight prices, followed by flight duration and season (Winter). This aligns with the boxplots showing that flights with a carry-on bag included are cheaper, and winter flights tend to have lower prices.
   ![](docs/random_forest_result.png)
 
 ### Neural Network:
